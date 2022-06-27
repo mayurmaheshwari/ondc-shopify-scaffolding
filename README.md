@@ -65,8 +65,8 @@ I add the above files to the respective protocol-servers inside the protocol-ser
 
 
 ## Starting the servers
-###### BAP Client & BPP Client
-- npm run start
+###### BAP Client & BPP Client (Starts with nodemon)
+- npm start
 ###### Protocol Server BAP & Protocol Server BPP
 - npm run build
 - npm run start
