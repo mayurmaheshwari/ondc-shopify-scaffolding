@@ -1,0 +1,1201 @@
+{
+  "context": {
+    "domain": "string",
+    "country": "string",
+    "city": "string",
+    "action": "search",
+    "core_version": "string",
+    "bap_id": "string",
+    "bap_uri": "string",
+    "bpp_id": "string",
+    "bpp_uri": "string",
+    "transaction_id": "string",
+    "message_id": "string",
+    "timestamp": "2022-06-27T07:02:37.858Z",
+    "key": "string",
+    "ttl": "string"
+  },
+  "message": {
+    "catalog": {
+      "bpp/descriptor": {
+        "name": "string",
+        "code": "string",
+        "symbol": "string",
+        "short_desc": "string",
+        "long_desc": "string",
+        "images": [
+          "string"
+        ],
+        "audio": "string",
+        "3d_render": "string"
+      },
+      "bpp/categories": [
+        {
+          "id": "string",
+          "parent_category_id": "string",
+          "descriptor": {
+            "name": "string",
+            "code": "string",
+            "symbol": "string",
+            "short_desc": "string",
+            "long_desc": "string",
+            "images": [
+              "string"
+            ],
+            "audio": "string",
+            "3d_render": "string"
+          },
+          "time": {
+            "label": "string",
+            "timestamp": "2022-06-27T07:02:37.858Z",
+            "duration": "string",
+            "range": {
+              "start": "2022-06-27T07:02:37.858Z",
+              "end": "2022-06-27T07:02:37.858Z"
+            },
+            "days": "string",
+            "schedule": {
+              "frequency": "string",
+              "holidays": [
+                "2022-06-27T07:02:37.858Z"
+              ],
+              "times": [
+                "2022-06-27T07:02:37.858Z"
+              ]
+            }
+          },
+          "tags": {
+            "additionalProp1": "string",
+            "additionalProp2": "string",
+            "additionalProp3": "string"
+          }
+        }
+      ],
+      "bpp/fulfillments": [
+        {
+          "id": "string",
+          "type": "string",
+          "provider_id": "string",
+          "rating": 0,
+          "state": {
+            "descriptor": {
+              "name": "string",
+              "code": "string",
+              "symbol": "string",
+              "short_desc": "string",
+              "long_desc": "string",
+              "images": [
+                "string"
+              ],
+              "audio": "string",
+              "3d_render": "string"
+            },
+            "updated_at": "2022-06-27T07:02:37.858Z",
+            "updated_by": "string"
+          },
+          "tracking": false,
+          "customer": {
+            "person": {
+              "name": "./M6x5-av6n_h@SS=HyvLN/b<4)A$Y,H:A4c7Ua<1rqcxYwjU}1zPZFU'_0w1}g[_#;{h)mI%{4A}8{tzik<^#|JL=l)T~wVHd_xLWcqs!Q/kYJ8ayfP,QYY[v=GJ]#Fo7~F!`wu}}4ZGczU@pvt`-lAZ;Y<i;2 jNA-#&>I6bD\\Si+Xlw{uRorW8$q\"]?yLI/]{ \";\\?Qy2?VblQcgi0,7so-w%[iS$z6'j66:\"t,^`K<NIj/z=}M?&?SJu64^s2f}~1yK3$4Tp'x-?`t\\Y72<mPcAY!?*tX23&F>>I>,B]+z?#t[ICs9$|kSNyfJfGg:tZl1}+L<d^YM-[S/'pA3Rr#J$QU]4W9`*czz`i6Kr|dLb(.D#;cWhFh{4R,lUEF}_C#.o(1{#I1w$:xWHYQR|kEIXN(&[r`i45WXgbk",
+              "image": "string",
+              "dob": "2022-06-27",
+              "gender": "string",
+              "cred": "string",
+              "tags": {
+                "additionalProp1": "string",
+                "additionalProp2": "string",
+                "additionalProp3": "string"
+              }
+            },
+            "contact": {
+              "phone": "string",
+              "email": "string",
+              "tags": {
+                "additionalProp1": "string",
+                "additionalProp2": "string",
+                "additionalProp3": "string"
+              }
+            }
+          },
+          "agent": {
+            "name": "./YFUFR)+vB[Z#,2\"+{e5}WTrnyGXmx*o'_U-<C0t)?b/=OnFvL.CmU[yOm@1{1[24:wr@B<Sk*\\&v 4Ngdx+r[4@kELAPQR i'2\"R&X(&sN%dqbfr+0<FRUi6Bf/9C7Z#!?ycoY`<@'Y1|y5!(ujCe|p7E;nPOofmMM=?d/cM]BUe\\/c^8]e_4L(ZS6I1djnNquhh-QDJ,U6Yi`P#khU!kv({D`-A*laql|A<9eS+qu;/wpirQ-w`E>qn>4mkY]6Xz]Z6R",
+            "image": "string",
+            "dob": "2022-06-27",
+            "gender": "string",
+            "cred": "string",
+            "tags": {
+              "additionalProp1": "string",
+              "additionalProp2": "string",
+              "additionalProp3": "string"
+            },
+            "phone": "string",
+            "email": "string",
+            "rateable": true
+          },
+          "person": {
+            "name": "./ga a>{~9W2<a-jKW7+#W,kdFs5cuIFvK|7V;Pq#$=a4f/Ed+G=%W!e/hp0^i8$)K)|Ab5xFDZB;>U:g__{BU%Z~h+%LP='\\H7J#xWoV`]G(9c@|N'`p@H,}O2p{tO5A7l-bM/A+bvrBw1{'.%~HUC&PPEPDjiu2`6^<kH)0joMuhv!h.eJh^QGCAI<m-k!q`1.XR_?r%1W;8;I[SC^-n+sT%t?hk/4U`ATpi?#MXC!e3veJg7MtF!ia~K%c1Mk;\\BOi8Q]k~#t*bDV(.:1\\0ITt&\"W_XUGo7SuO4T']`p;TSpz9y8c ]:m0A+@Jm(kS/8en('h:Rq>Dbdx>,J",
+            "image": "string",
+            "dob": "2022-06-27",
+            "gender": "string",
+            "cred": "string",
+            "tags": {
+              "additionalProp1": "string",
+              "additionalProp2": "string",
+              "additionalProp3": "string"
+            }
+          },
+          "contact": {
+            "phone": "string",
+            "email": "string",
+            "tags": {
+              "additionalProp1": "string",
+              "additionalProp2": "string",
+              "additionalProp3": "string"
+            }
+          },
+          "vehicle": {
+            "category": "string",
+            "capacity": 0,
+            "make": "string",
+            "model": "string",
+            "size": "string",
+            "variant": "string",
+            "color": "string",
+            "energy_type": "string",
+            "registration": "string"
+          },
+          "start": {
+            "location": {
+              "id": "string",
+              "descriptor": {
+                "name": "string",
+                "code": "string",
+                "symbol": "string",
+                "short_desc": "string",
+                "long_desc": "string",
+                "images": [
+                  "string"
+                ],
+                "audio": "string",
+                "3d_render": "string"
+              },
+              "gps": "-34,                                                                              +156",
+              "address": {
+                "door": "string",
+                "name": "string",
+                "building": "string",
+                "street": "string",
+                "locality": "string",
+                "ward": "string",
+                "city": "string",
+                "state": "string",
+                "country": "string",
+                "area_code": "string"
+              },
+              "station_code": "string",
+              "city": {
+                "name": "string",
+                "code": "string"
+              },
+              "country": {
+                "name": "string",
+                "code": "string"
+              },
+              "circle": {
+                "gps": "3.40944190742961181856945689311327697752901230335649455197974091044383727367263421778985688151888,             180",
+                "radius": {
+                  "type": "CONSTANT",
+                  "value": 0,
+                  "estimated_value": 0,
+                  "computed_value": 0,
+                  "range": {
+                    "min": 0,
+                    "max": 0
+                  },
+                  "unit": "string"
+                }
+              },
+              "polygon": "string",
+              "3dspace": "string",
+              "time": {
+                "label": "string",
+                "timestamp": "2022-06-27T07:02:37.863Z",
+                "duration": "string",
+                "range": {
+                  "start": "2022-06-27T07:02:37.863Z",
+                  "end": "2022-06-27T07:02:37.863Z"
+                },
+                "days": "string",
+                "schedule": {
+                  "frequency": "string",
+                  "holidays": [
+                    "2022-06-27T07:02:37.863Z"
+                  ],
+                  "times": [
+                    "2022-06-27T07:02:37.863Z"
+                  ]
+                }
+              }
+            },
+            "time": {
+              "label": "string",
+              "timestamp": "2022-06-27T07:02:37.863Z",
+              "duration": "string",
+              "range": {
+                "start": "2022-06-27T07:02:37.863Z",
+                "end": "2022-06-27T07:02:37.863Z"
+              },
+              "days": "string",
+              "schedule": {
+                "frequency": "string",
+                "holidays": [
+                  "2022-06-27T07:02:37.863Z"
+                ],
+                "times": [
+                  "2022-06-27T07:02:37.863Z"
+                ]
+              }
+            },
+            "instructions": {
+              "name": "string",
+              "code": "string",
+              "symbol": "string",
+              "short_desc": "string",
+              "long_desc": "string",
+              "images": [
+                "string"
+              ],
+              "audio": "string",
+              "3d_render": "string"
+            },
+            "contact": {
+              "phone": "string",
+              "email": "string",
+              "tags": {
+                "additionalProp1": "string",
+                "additionalProp2": "string",
+                "additionalProp3": "string"
+              }
+            },
+            "person": {
+              "name": "./cWp8a5;(R5$:KmShsI/?]rO:a_Ahmv3a\"UCHxum$9A\\bY%m`Oed0\",E|L-n%m4-ur/\"#(IN; /u(b>>|z:%9uMyg\"1t+m]*M+dQ5Q(V^;\\i|^,hI[c fWR?,Xq~PgR1Gl2w/===u.]/",
+              "image": "string",
+              "dob": "2022-06-27",
+              "gender": "string",
+              "cred": "string",
+              "tags": {
+                "additionalProp1": "string",
+                "additionalProp2": "string",
+                "additionalProp3": "string"
+              }
+            },
+            "authorization": {
+              "type": "string",
+              "token": "string",
+              "valid_from": "2022-06-27T07:02:37.863Z",
+              "valid_to": "2022-06-27T07:02:37.863Z",
+              "status": "string"
+            }
+          },
+          "end": {
+            "location": {
+              "id": "string",
+              "descriptor": {
+                "name": "string",
+                "code": "string",
+                "symbol": "string",
+                "short_desc": "string",
+                "long_desc": "string",
+                "images": [
+                  "string"
+                ],
+                "audio": "string",
+                "3d_render": "string"
+              },
+              "gps": "-41,                              1",
+              "address": {
+                "door": "string",
+                "name": "string",
+                "building": "string",
+                "street": "string",
+                "locality": "string",
+                "ward": "string",
+                "city": "string",
+                "state": "string",
+                "country": "string",
+                "area_code": "string"
+              },
+              "station_code": "string",
+              "city": {
+                "name": "string",
+                "code": "string"
+              },
+              "country": {
+                "name": "string",
+                "code": "string"
+              },
+              "circle": {
+                "gps": "+2,           180",
+                "radius": {
+                  "type": "CONSTANT",
+                  "value": 0,
+                  "estimated_value": 0,
+                  "computed_value": 0,
+                  "range": {
+                    "min": 0,
+                    "max": 0
+                  },
+                  "unit": "string"
+                }
+              },
+              "polygon": "string",
+              "3dspace": "string",
+              "time": {
+                "label": "string",
+                "timestamp": "2022-06-27T07:02:37.864Z",
+                "duration": "string",
+                "range": {
+                  "start": "2022-06-27T07:02:37.864Z",
+                  "end": "2022-06-27T07:02:37.864Z"
+                },
+                "days": "string",
+                "schedule": {
+                  "frequency": "string",
+                  "holidays": [
+                    "2022-06-27T07:02:37.864Z"
+                  ],
+                  "times": [
+                    "2022-06-27T07:02:37.864Z"
+                  ]
+                }
+              }
+            },
+            "time": {
+              "label": "string",
+              "timestamp": "2022-06-27T07:02:37.864Z",
+              "duration": "string",
+              "range": {
+                "start": "2022-06-27T07:02:37.864Z",
+                "end": "2022-06-27T07:02:37.864Z"
+              },
+              "days": "string",
+              "schedule": {
+                "frequency": "string",
+                "holidays": [
+                  "2022-06-27T07:02:37.864Z"
+                ],
+                "times": [
+                  "2022-06-27T07:02:37.864Z"
+                ]
+              }
+            },
+            "instructions": {
+              "name": "string",
+              "code": "string",
+              "symbol": "string",
+              "short_desc": "string",
+              "long_desc": "string",
+              "images": [
+                "string"
+              ],
+              "audio": "string",
+              "3d_render": "string"
+            },
+            "contact": {
+              "phone": "string",
+              "email": "string",
+              "tags": {
+                "additionalProp1": "string",
+                "additionalProp2": "string",
+                "additionalProp3": "string"
+              }
+            },
+            "person": {
+              "name": "./m6Ys$-l!dV:9f7<h,Fx+33):pM!I46Ha;A=6uT<si39/FD9),zte~_hsnORvgRG}9JXbbaKvvBqc%E^N`LV8:8?m1/0=3'6M~r!)6#]QWk~,pwNByt-GyoZNLC^w~Z`iPCoYUUfy8|suQY?lQ?ZI-H% a00L0khvgiJM\"uv'jgkRBJ=vG/a$yn Ix3wE#4d~6lB,C!+Zwe<bu<%gMDO6Y]I%$a|>5(uA\\&GJ\\+q/9PR\"C\\i!<J^Z1_HT{4d>OKZ\\RmGK]($~#d2JTAo},tjc@>L6@U{/iBrh!:@J]VCp ",
+              "image": "string",
+              "dob": "2022-06-27",
+              "gender": "string",
+              "cred": "string",
+              "tags": {
+                "additionalProp1": "string",
+                "additionalProp2": "string",
+                "additionalProp3": "string"
+              }
+            },
+            "authorization": {
+              "type": "string",
+              "token": "string",
+              "valid_from": "2022-06-27T07:02:37.865Z",
+              "valid_to": "2022-06-27T07:02:37.865Z",
+              "status": "string"
+            }
+          },
+          "rateable": true,
+          "tags": {
+            "additionalProp1": "string",
+            "additionalProp2": "string",
+            "additionalProp3": "string"
+          }
+        }
+      ],
+      "bpp/payments": [
+        {
+          "uri": "string",
+          "tl_method": "http/get",
+          "params": {
+            "transaction_id": "string",
+            "transaction_status": "string",
+            "amount": "+453087761484316196200609561054887119968392505653091158211907946508136291167181422087393029",
+            "currency": "string",
+            "additionalProp1": "string",
+            "additionalProp2": "string",
+            "additionalProp3": "string"
+          },
+          "type": "ON-ORDER",
+          "status": "PAID",
+          "time": {
+            "label": "string",
+            "timestamp": "2022-06-27T07:02:37.865Z",
+            "duration": "string",
+            "range": {
+              "start": "2022-06-27T07:02:37.865Z",
+              "end": "2022-06-27T07:02:37.865Z"
+            },
+            "days": "string",
+            "schedule": {
+              "frequency": "string",
+              "holidays": [
+                "2022-06-27T07:02:37.865Z"
+              ],
+              "times": [
+                "2022-06-27T07:02:37.865Z"
+              ]
+            }
+          }
+        }
+      ],
+      "bpp/offers": [
+        {
+          "id": "string",
+          "descriptor": {
+            "name": "string",
+            "code": "string",
+            "symbol": "string",
+            "short_desc": "string",
+            "long_desc": "string",
+            "images": [
+              "string"
+            ],
+            "audio": "string",
+            "3d_render": "string"
+          },
+          "location_ids": [
+            "string"
+          ],
+          "category_ids": [
+            "string"
+          ],
+          "item_ids": [
+            "string"
+          ],
+          "time": {
+            "label": "string",
+            "timestamp": "2022-06-27T07:02:37.865Z",
+            "duration": "string",
+            "range": {
+              "start": "2022-06-27T07:02:37.865Z",
+              "end": "2022-06-27T07:02:37.865Z"
+            },
+            "days": "string",
+            "schedule": {
+              "frequency": "string",
+              "holidays": [
+                "2022-06-27T07:02:37.865Z"
+              ],
+              "times": [
+                "2022-06-27T07:02:37.865Z"
+              ]
+            }
+          }
+        }
+      ],
+      "bpp/providers": [
+        {
+          "id": "string",
+          "descriptor": {
+            "name": "string",
+            "code": "string",
+            "symbol": "string",
+            "short_desc": "string",
+            "long_desc": "string",
+            "images": [
+              "string"
+            ],
+            "audio": "string",
+            "3d_render": "string"
+          },
+          "category_id": "string",
+          "rating": 0,
+          "time": {
+            "label": "string",
+            "timestamp": "2022-06-27T07:02:37.865Z",
+            "duration": "string",
+            "range": {
+              "start": "2022-06-27T07:02:37.865Z",
+              "end": "2022-06-27T07:02:37.865Z"
+            },
+            "days": "string",
+            "schedule": {
+              "frequency": "string",
+              "holidays": [
+                "2022-06-27T07:02:37.865Z"
+              ],
+              "times": [
+                "2022-06-27T07:02:37.865Z"
+              ]
+            }
+          },
+          "categories": [
+            {
+              "id": "string",
+              "parent_category_id": "string",
+              "descriptor": {
+                "name": "string",
+                "code": "string",
+                "symbol": "string",
+                "short_desc": "string",
+                "long_desc": "string",
+                "images": [
+                  "string"
+                ],
+                "audio": "string",
+                "3d_render": "string"
+              },
+              "time": {
+                "label": "string",
+                "timestamp": "2022-06-27T07:02:37.865Z",
+                "duration": "string",
+                "range": {
+                  "start": "2022-06-27T07:02:37.865Z",
+                  "end": "2022-06-27T07:02:37.865Z"
+                },
+                "days": "string",
+                "schedule": {
+                  "frequency": "string",
+                  "holidays": [
+                    "2022-06-27T07:02:37.865Z"
+                  ],
+                  "times": [
+                    "2022-06-27T07:02:37.865Z"
+                  ]
+                }
+              },
+              "tags": {
+                "additionalProp1": "string",
+                "additionalProp2": "string",
+                "additionalProp3": "string"
+              }
+            }
+          ],
+          "fulfillments": [
+            {
+              "id": "string",
+              "type": "string",
+              "provider_id": "string",
+              "rating": 0,
+              "state": {
+                "descriptor": {
+                  "name": "string",
+                  "code": "string",
+                  "symbol": "string",
+                  "short_desc": "string",
+                  "long_desc": "string",
+                  "images": [
+                    "string"
+                  ],
+                  "audio": "string",
+                  "3d_render": "string"
+                },
+                "updated_at": "2022-06-27T07:02:37.865Z",
+                "updated_by": "string"
+              },
+              "tracking": false,
+              "customer": {
+                "person": {
+                  "name": "./3qZC3c$6j)#9#nI+'kz}+)GNSopoAk\\1FU~e$)mdWSh{r.mh\\%6I{zC~CM7]>dhQ%ip/_W<N0c~Y~lC\\dp/PyY'o?QHw!&,3h\"HA(@j>nG#d^VF=BhB&7e2r]l?;`-|L.kLSn.wbf`6d9A/*|lX_ IoyLh',=gVteXb!#^6PY&@cUX28[b_g!}y@-srP^cSW&DL/OwPq+# U%{/^PIH4Qr:a_n~,4`*MzkqDcjLN@Q~do0d*3fgMe*k,Z_)HzMN",
+                  "image": "string",
+                  "dob": "2022-06-27",
+                  "gender": "string",
+                  "cred": "string",
+                  "tags": {
+                    "additionalProp1": "string",
+                    "additionalProp2": "string",
+                    "additionalProp3": "string"
+                  }
+                },
+                "contact": {
+                  "phone": "string",
+                  "email": "string",
+                  "tags": {
+                    "additionalProp1": "string",
+                    "additionalProp2": "string",
+                    "additionalProp3": "string"
+                  }
+                }
+              },
+              "agent": {
+                "name": "./ngv.FiC|>BpMg<OQ5)XIDZVyNEr5Oa{jyYPS|?4p >@mtuSOkr8dr;o2JHa3H?JwRYdQ\\Vd$~'>%6/0$``L*vC`g #1-b$ O%zA^ENyE@VDem@M>e&]u3mT<-aNGEV<sxBn>blPn[/5A|!+gJi*,9Lsp3eq%W/r4+%yM;1]w&m{RdZ|GIo_WP9n9|6~v&gL)V`u~nR_qUz1WO4H|8#?%z@FzmaRCjlYQ\"b{vzO=$1tDWW~jC76@E/ip\\E7Wosy>hL<PI#sLjnYFQN'OrUtnm_b%Y$W9J2UUW],uZqcf.QtgEB6#qD==m]d[3=GeF}w_rcZp{^<%`$7}K:d/.,&|s,!eRC0$i-q{86854R!lVvh6P;*`NN,F4yW-ZbbjK( .'BWj-ly=yAsU;!q",
+                "image": "string",
+                "dob": "2022-06-27",
+                "gender": "string",
+                "cred": "string",
+                "tags": {
+                  "additionalProp1": "string",
+                  "additionalProp2": "string",
+                  "additionalProp3": "string"
+                },
+                "phone": "string",
+                "email": "string",
+                "rateable": true
+              },
+              "person": {
+                "name": "./eiK {eb?Xgvkt#WU=\\+j(5{j(.GkW-C/tnD(-!c-W\"?%G2xc46rp'1&*FT/eGNjA)W85%eV{^pQ^]~/#cBH{a~YcLc5!Y7F*@!m2NPJi)kBQp<rG^Kp\\Bq#vo,Id8!T$&CYP*&8GO#X6|0T/uF<GjzLi;mgGxbQpT^{C#&qD59op$D$]gKA/Ka!ie0~%_<=}\\ Mz{6",
+                "image": "string",
+                "dob": "2022-06-27",
+                "gender": "string",
+                "cred": "string",
+                "tags": {
+                  "additionalProp1": "string",
+                  "additionalProp2": "string",
+                  "additionalProp3": "string"
+                }
+              },
+              "contact": {
+                "phone": "string",
+                "email": "string",
+                "tags": {
+                  "additionalProp1": "string",
+                  "additionalProp2": "string",
+                  "additionalProp3": "string"
+                }
+              },
+              "vehicle": {
+                "category": "string",
+                "capacity": 0,
+                "make": "string",
+                "model": "string",
+                "size": "string",
+                "variant": "string",
+                "color": "string",
+                "energy_type": "string",
+                "registration": "string"
+              },
+              "start": {
+                "location": {
+                  "id": "string",
+                  "descriptor": {
+                    "name": "string",
+                    "code": "string",
+                    "symbol": "string",
+                    "short_desc": "string",
+                    "long_desc": "string",
+                    "images": [
+                      "string"
+                    ],
+                    "audio": "string",
+                    "3d_render": "string"
+                  },
+                  "gps": "-90.0000000000000000000000000000000000000000000000000000000000000,                                                          18.0823231606945338629428741308568738556618790930826896561341134661696115845",
+                  "address": {
+                    "door": "string",
+                    "name": "string",
+                    "building": "string",
+                    "street": "string",
+                    "locality": "string",
+                    "ward": "string",
+                    "city": "string",
+                    "state": "string",
+                    "country": "string",
+                    "area_code": "string"
+                  },
+                  "station_code": "string",
+                  "city": {
+                    "name": "string",
+                    "code": "string"
+                  },
+                  "country": {
+                    "name": "string",
+                    "code": "string"
+                  },
+                  "circle": {
+                    "gps": "48.11105323285435004212666827483769310368907811232049633217348225977,               110.8754349948813317274510692566643815403283495589679153546386386285",
+                    "radius": {
+                      "type": "CONSTANT",
+                      "value": 0,
+                      "estimated_value": 0,
+                      "computed_value": 0,
+                      "range": {
+                        "min": 0,
+                        "max": 0
+                      },
+                      "unit": "string"
+                    }
+                  },
+                  "polygon": "string",
+                  "3dspace": "string",
+                  "time": {
+                    "label": "string",
+                    "timestamp": "2022-06-27T07:02:37.869Z",
+                    "duration": "string",
+                    "range": {
+                      "start": "2022-06-27T07:02:37.869Z",
+                      "end": "2022-06-27T07:02:37.869Z"
+                    },
+                    "days": "string",
+                    "schedule": {
+                      "frequency": "string",
+                      "holidays": [
+                        "2022-06-27T07:02:37.869Z"
+                      ],
+                      "times": [
+                        "2022-06-27T07:02:37.869Z"
+                      ]
+                    }
+                  }
+                },
+                "time": {
+                  "label": "string",
+                  "timestamp": "2022-06-27T07:02:37.869Z",
+                  "duration": "string",
+                  "range": {
+                    "start": "2022-06-27T07:02:37.869Z",
+                    "end": "2022-06-27T07:02:37.869Z"
+                  },
+                  "days": "string",
+                  "schedule": {
+                    "frequency": "string",
+                    "holidays": [
+                      "2022-06-27T07:02:37.869Z"
+                    ],
+                    "times": [
+                      "2022-06-27T07:02:37.869Z"
+                    ]
+                  }
+                },
+                "instructions": {
+                  "name": "string",
+                  "code": "string",
+                  "symbol": "string",
+                  "short_desc": "string",
+                  "long_desc": "string",
+                  "images": [
+                    "string"
+                  ],
+                  "audio": "string",
+                  "3d_render": "string"
+                },
+                "contact": {
+                  "phone": "string",
+                  "email": "string",
+                  "tags": {
+                    "additionalProp1": "string",
+                    "additionalProp2": "string",
+                    "additionalProp3": "string"
+                  }
+                },
+                "person": {
+                  "name": "./W#E2,Xi)[S`cg=&\"yPGHJGjmJ->&ktd}t/sp_5{OAv&$VPtuYjt%5|_GS,[;[D\\n><)o}H{sP4e(V;Uj?!N3V<y[CI&tOSm(;Qxl3Q#M%S7cu7^0aK'S-OmRBK%\\~S=-/3xL;h+I-j2r\\]<VfHmX/[Xjy^\"6zm>u\\L?=KpNhk7@=%!~<ELN<=w{(H!YjTNR=+[#DVE8L2u/\\ {71|9z|9@=&Lms#fo`vr'{%0}K@DY{8O(S2_Nf@EeR[s+XX`l#53M*bXH:e3(4;I4Q.QU5eG8fY\"-hrA,$:GJ/Tq&J`}{P`S,2WdkcEGVhmzRVV'dyx,;y.",
+                  "image": "string",
+                  "dob": "2022-06-27",
+                  "gender": "string",
+                  "cred": "string",
+                  "tags": {
+                    "additionalProp1": "string",
+                    "additionalProp2": "string",
+                    "additionalProp3": "string"
+                  }
+                },
+                "authorization": {
+                  "type": "string",
+                  "token": "string",
+                  "valid_from": "2022-06-27T07:02:37.870Z",
+                  "valid_to": "2022-06-27T07:02:37.870Z",
+                  "status": "string"
+                }
+              },
+              "end": {
+                "location": {
+                  "id": "string",
+                  "descriptor": {
+                    "name": "string",
+                    "code": "string",
+                    "symbol": "string",
+                    "short_desc": "string",
+                    "long_desc": "string",
+                    "images": [
+                      "string"
+                    ],
+                    "audio": "string",
+                    "3d_render": "string"
+                  },
+                  "gps": "+90,                                                       -4.909324360965710276661944590702489854778827129047921268579091497997412153998429762638360",
+                  "address": {
+                    "door": "string",
+                    "name": "string",
+                    "building": "string",
+                    "street": "string",
+                    "locality": "string",
+                    "ward": "string",
+                    "city": "string",
+                    "state": "string",
+                    "country": "string",
+                    "area_code": "string"
+                  },
+                  "station_code": "string",
+                  "city": {
+                    "name": "string",
+                    "code": "string"
+                  },
+                  "country": {
+                    "name": "string",
+                    "code": "string"
+                  },
+                  "circle": {
+                    "gps": "+90.00000000,   -104",
+                    "radius": {
+                      "type": "CONSTANT",
+                      "value": 0,
+                      "estimated_value": 0,
+                      "computed_value": 0,
+                      "range": {
+                        "min": 0,
+                        "max": 0
+                      },
+                      "unit": "string"
+                    }
+                  },
+                  "polygon": "string",
+                  "3dspace": "string",
+                  "time": {
+                    "label": "string",
+                    "timestamp": "2022-06-27T07:02:37.871Z",
+                    "duration": "string",
+                    "range": {
+                      "start": "2022-06-27T07:02:37.871Z",
+                      "end": "2022-06-27T07:02:37.871Z"
+                    },
+                    "days": "string",
+                    "schedule": {
+                      "frequency": "string",
+                      "holidays": [
+                        "2022-06-27T07:02:37.871Z"
+                      ],
+                      "times": [
+                        "2022-06-27T07:02:37.871Z"
+                      ]
+                    }
+                  }
+                },
+                "time": {
+                  "label": "string",
+                  "timestamp": "2022-06-27T07:02:37.871Z",
+                  "duration": "string",
+                  "range": {
+                    "start": "2022-06-27T07:02:37.871Z",
+                    "end": "2022-06-27T07:02:37.871Z"
+                  },
+                  "days": "string",
+                  "schedule": {
+                    "frequency": "string",
+                    "holidays": [
+                      "2022-06-27T07:02:37.871Z"
+                    ],
+                    "times": [
+                      "2022-06-27T07:02:37.871Z"
+                    ]
+                  }
+                },
+                "instructions": {
+                  "name": "string",
+                  "code": "string",
+                  "symbol": "string",
+                  "short_desc": "string",
+                  "long_desc": "string",
+                  "images": [
+                    "string"
+                  ],
+                  "audio": "string",
+                  "3d_render": "string"
+                },
+                "contact": {
+                  "phone": "string",
+                  "email": "string",
+                  "tags": {
+                    "additionalProp1": "string",
+                    "additionalProp2": "string",
+                    "additionalProp3": "string"
+                  }
+                },
+                "person": {
+                  "name": "./noLHG#tAePbXy/$Q0kXr7&t1,P~S^{[9t\\^V\"nu]moM:B|$>'/3fXpvz0>H_=(< <H70Y;)g{zoq4[h>\"60f8sgpT5^HXq1xW\"WV`|l]iF>*/gZ{u$Ti%ShZ> B=u__H0}c`.2b8FC!'L5vY#X<x9c-fSbNtgI_xx$UD@v>7[|[J\\h04YrPbsRN$D#w%(v|Ywx6Fe/~]B$8*/+U&P,c%<iy(=t#=c,.y,CDi5;Y1N-Jre^y>uPo-t8)2mO' 9uh0Sb>",
+                  "image": "string",
+                  "dob": "2022-06-27",
+                  "gender": "string",
+                  "cred": "string",
+                  "tags": {
+                    "additionalProp1": "string",
+                    "additionalProp2": "string",
+                    "additionalProp3": "string"
+                  }
+                },
+                "authorization": {
+                  "type": "string",
+                  "token": "string",
+                  "valid_from": "2022-06-27T07:02:37.872Z",
+                  "valid_to": "2022-06-27T07:02:37.872Z",
+                  "status": "string"
+                }
+              },
+              "rateable": true,
+              "tags": {
+                "additionalProp1": "string",
+                "additionalProp2": "string",
+                "additionalProp3": "string"
+              }
+            }
+          ],
+          "payments": [
+            {
+              "uri": "string",
+              "tl_method": "http/get",
+              "params": {
+                "transaction_id": "string",
+                "transaction_status": "string",
+                "amount": "-88292200166674793118308927114773773544503546916223",
+                "currency": "string",
+                "additionalProp1": "string",
+                "additionalProp2": "string",
+                "additionalProp3": "string"
+              },
+              "type": "ON-ORDER",
+              "status": "PAID",
+              "time": {
+                "label": "string",
+                "timestamp": "2022-06-27T07:02:37.872Z",
+                "duration": "string",
+                "range": {
+                  "start": "2022-06-27T07:02:37.872Z",
+                  "end": "2022-06-27T07:02:37.872Z"
+                },
+                "days": "string",
+                "schedule": {
+                  "frequency": "string",
+                  "holidays": [
+                    "2022-06-27T07:02:37.872Z"
+                  ],
+                  "times": [
+                    "2022-06-27T07:02:37.872Z"
+                  ]
+                }
+              }
+            }
+          ],
+          "locations": [
+            {
+              "id": "string",
+              "descriptor": {
+                "name": "string",
+                "code": "string",
+                "symbol": "string",
+                "short_desc": "string",
+                "long_desc": "string",
+                "images": [
+                  "string"
+                ],
+                "audio": "string",
+                "3d_render": "string"
+              },
+              "gps": "7,                                                                 3.9020242272522533187978135126482889623117631149505770708677769",
+              "address": {
+                "door": "string",
+                "name": "string",
+                "building": "string",
+                "street": "string",
+                "locality": "string",
+                "ward": "string",
+                "city": "string",
+                "state": "string",
+                "country": "string",
+                "area_code": "string"
+              },
+              "station_code": "string",
+              "city": {
+                "name": "string",
+                "code": "string"
+              },
+              "country": {
+                "name": "string",
+                "code": "string"
+              },
+              "circle": {
+                "gps": "90.000000000000000000000000,                                       -180.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "radius": {
+                  "type": "CONSTANT",
+                  "value": 0,
+                  "estimated_value": 0,
+                  "computed_value": 0,
+                  "range": {
+                    "min": 0,
+                    "max": 0
+                  },
+                  "unit": "string"
+                }
+              },
+              "polygon": "string",
+              "3dspace": "string",
+              "time": {
+                "label": "string",
+                "timestamp": "2022-06-27T07:02:37.873Z",
+                "duration": "string",
+                "range": {
+                  "start": "2022-06-27T07:02:37.873Z",
+                  "end": "2022-06-27T07:02:37.873Z"
+                },
+                "days": "string",
+                "schedule": {
+                  "frequency": "string",
+                  "holidays": [
+                    "2022-06-27T07:02:37.873Z"
+                  ],
+                  "times": [
+                    "2022-06-27T07:02:37.873Z"
+                  ]
+                }
+              },
+              "rateable": true
+            }
+          ],
+          "offers": [
+            {
+              "id": "string",
+              "descriptor": {
+                "name": "string",
+                "code": "string",
+                "symbol": "string",
+                "short_desc": "string",
+                "long_desc": "string",
+                "images": [
+                  "string"
+                ],
+                "audio": "string",
+                "3d_render": "string"
+              },
+              "location_ids": [
+                "string"
+              ],
+              "category_ids": [
+                "string"
+              ],
+              "item_ids": [
+                "string"
+              ],
+              "time": {
+                "label": "string",
+                "timestamp": "2022-06-27T07:02:37.874Z",
+                "duration": "string",
+                "range": {
+                  "start": "2022-06-27T07:02:37.874Z",
+                  "end": "2022-06-27T07:02:37.874Z"
+                },
+                "days": "string",
+                "schedule": {
+                  "frequency": "string",
+                  "holidays": [
+                    "2022-06-27T07:02:37.874Z"
+                  ],
+                  "times": [
+                    "2022-06-27T07:02:37.874Z"
+                  ]
+                }
+              }
+            }
+          ],
+          "items": [
+            {
+              "id": "string",
+              "parent_item_id": "string",
+              "descriptor": {
+                "name": "string",
+                "code": "string",
+                "symbol": "string",
+                "short_desc": "string",
+                "long_desc": "string",
+                "images": [
+                  "string"
+                ],
+                "audio": "string",
+                "3d_render": "string"
+              },
+              "price": {
+                "currency": "string",
+                "value": "-576228694772017270750202066587157755907968961640156",
+                "estimated_value": "-896635961409424105312366827438132293416101803981.0122512146661311372334146770257849405782094656396978337888527378216176768255225199311926838348",
+                "computed_value": "848785807272224008761746706820405245325513",
+                "listed_value": "-5802882763714965203836318038556600967184181945618983324212234822642730040798922875299147454456037.45467121701423255078025977543",
+                "offered_value": "66014329860",
+                "minimum_value": "-4334073354858566758817143161532682066475352430517450068294072474976891964628621987068781519772",
+                "maximum_value": "+8687442888485739697792865959579831370269408353742510072924.515448872152874703645321310948004287273206258379763748361208646244339266375659852531"
+              },
+              "category_id": "string",
+              "fulfillment_id": "string",
+              "rating": 0,
+              "location_id": "string",
+              "time": {
+                "label": "string",
+                "timestamp": "2022-06-27T07:02:37.875Z",
+                "duration": "string",
+                "range": {
+                  "start": "2022-06-27T07:02:37.875Z",
+                  "end": "2022-06-27T07:02:37.875Z"
+                },
+                "days": "string",
+                "schedule": {
+                  "frequency": "string",
+                  "holidays": [
+                    "2022-06-27T07:02:37.875Z"
+                  ],
+                  "times": [
+                    "2022-06-27T07:02:37.875Z"
+                  ]
+                }
+              },
+              "rateable": true,
+              "matched": true,
+              "related": true,
+              "recommended": true,
+              "tags": {
+                "additionalProp1": "string",
+                "additionalProp2": "string",
+                "additionalProp3": "string"
+              }
+            }
+          ],
+          "exp": "2022-06-27T07:02:37.875Z",
+          "rateable": true,
+          "tags": {
+            "additionalProp1": "string",
+            "additionalProp2": "string",
+            "additionalProp3": "string"
+          }
+        }
+      ],
+      "exp": "2022-06-27T07:02:37.875Z"
+    }
+  },
+  "error": {
+    "type": "CONTEXT-ERROR",
+    "code": "string",
+    "path": "string",
+    "message": "string"
+  }
+}
