@@ -40,10 +40,10 @@ I add the above files to the respective protocol-servers inside the protocol-ser
     "mode": "bpp",
     "actions": ["search", "init"],
     "privateKey": "{your-bpp-protocol-server-private-key}",
-    "publicKey": "your-bpp-protocol-server-public-key",
+    "publicKey": "{your-bpp-protocol-server-public-key"},
 
-    "subscriberId": "dev.bpp.protocol-server.com",
-    "subscriberUri": "http://localhost:5000/",
+    "subscriberId": "dev.bpp.protocol-server.com", # BPP Id as in the registry
+    "subscriberUri": "http://localhost:5000/",  # BPP URI as in the registry
 
     "registryUrl": "http://localhost:3000/",
     "auth": true,
@@ -58,7 +58,17 @@ I add the above files to the respective protocol-servers inside the protocol-ser
     "httpTimeout": 3000,
     "httpRetryCount": 2,
 
-    "clientUrl": "http://localhost:5050/"
+    "clientUrl": "http://localhost:5050/"  #BPP Client URI
   }
 }
 ```
+
+
+## Starting the servers
+###### BAP Client & BPP Client
+- npm run start
+###### Protocol Server BAP & Protocol Server BPP
+- npm run build
+- npm run start
+
+**Note** : BAP Client sends the request as soon as it starts. So start that in the end
